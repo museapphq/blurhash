@@ -131,7 +131,6 @@
 		1B49CD1F1EC4721A006F8E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B49CD261EC47243006F8E7D /* BlurHashEncode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurHashEncode.swift; sourceTree = "<group>"; };
 		1B49CD281EC4724C006F8E7D /* BlurHashDecode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurHashDecode.swift; sourceTree = "<group>"; };
-		1B6C71F122724500000D3BB1 /* BlurHashKit copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BlurHashKit copy-Info.plist"; path = "/Users/dag/Code/Toot/BlurHash/BlurHashKit copy-Info.plist"; sourceTree = "<absolute>"; };
 		1B6C71F62272451E000D3BB1 /* libBlurHashKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBlurHashKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B83DED022D88D1500CAA12F /* EscapeSequences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscapeSequences.swift; sourceTree = "<group>"; };
 		1BAA60701FF40A2F00E42DD7 /* BlurHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurHash.swift; sourceTree = "<group>"; };
@@ -164,6 +163,7 @@
 		1BEFFFC620BFF7B100187F3F /* Algorithm.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = Algorithm.md; path = ../Algorithm.md; sourceTree = "<group>"; };
 		1BEFFFC720BFF7B100187F3F /* CodeOfConduct.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CodeOfConduct.md; path = ../CodeOfConduct.md; sourceTree = "<group>"; };
 		1BEFFFC820C000DE00187F3F /* License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		C56A1A2B27E14040007F6E30 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,10 +307,10 @@
 				1B1B249220C13E9700D8EF03 /* Python */,
 				1BEFFFC620BFF7B100187F3F /* Algorithm.md */,
 				1BEFFFC720BFF7B100187F3F /* CodeOfConduct.md */,
+				C56A1A2B27E14040007F6E30 /* Package.swift */,
 				1BEFFFC820C000DE00187F3F /* License.txt */,
 				1BEFFFC320BFE34800187F3F /* Readme.md */,
 				1B49CD1C1EC4721A006F8E7D /* Products */,
-				1B6C71F122724500000D3BB1 /* BlurHashKit copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -328,10 +328,9 @@
 		1B49CD1D1EC4721A006F8E7D /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				C56A1A2C27E14063007F6E30 /* BlurHashKitCodable */,
 				1B0A250D1EC5E90C00F25F08 /* BlurHashTest */,
 				1BAA606F1FF40A1E00E42DD7 /* BlurHashKit */,
-				1B49CD261EC47243006F8E7D /* BlurHashEncode.swift */,
-				1B49CD281EC4724C006F8E7D /* BlurHashDecode.swift */,
 				1BEFFFC420BFE35300187F3F /* Readme.md */,
 			);
 			name = Swift;
@@ -398,6 +397,15 @@
 			);
 			name = Kotlin;
 			path = ../Kotlin;
+			sourceTree = "<group>";
+		};
+		C56A1A2C27E14063007F6E30 /* BlurHashKitCodable */ = {
+			isa = PBXGroup;
+			children = (
+				1B49CD261EC47243006F8E7D /* BlurHashEncode.swift */,
+				1B49CD281EC4724C006F8E7D /* BlurHashDecode.swift */,
+			);
+			path = BlurHashKitCodable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
