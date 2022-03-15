@@ -163,7 +163,7 @@
 		1BEFFFC620BFF7B100187F3F /* Algorithm.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = Algorithm.md; path = ../Algorithm.md; sourceTree = "<group>"; };
 		1BEFFFC720BFF7B100187F3F /* CodeOfConduct.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CodeOfConduct.md; path = ../CodeOfConduct.md; sourceTree = "<group>"; };
 		1BEFFFC820C000DE00187F3F /* License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
-		C56A1A2B27E14040007F6E30 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		C56A1A2D27E1412F007F6E30 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,9 +307,9 @@
 				1B1B249220C13E9700D8EF03 /* Python */,
 				1BEFFFC620BFF7B100187F3F /* Algorithm.md */,
 				1BEFFFC720BFF7B100187F3F /* CodeOfConduct.md */,
-				C56A1A2B27E14040007F6E30 /* Package.swift */,
 				1BEFFFC820C000DE00187F3F /* License.txt */,
 				1BEFFFC320BFE34800187F3F /* Readme.md */,
+				C56A1A2D27E1412F007F6E30 /* Package.swift */,
 				1B49CD1C1EC4721A006F8E7D /* Products */,
 			);
 			sourceTree = "<group>";
