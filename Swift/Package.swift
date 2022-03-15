@@ -13,17 +13,6 @@ let package = Package(
         .target(name: "BlurHashKit",
                 dependencies: [],
                 path: "./Swift/BlurHashKit"
-        ),
-        .target(name: "BlurHashKitCodable",
-                dependencies: ["BlurHashKit"],
-                path: "./Swift/BlurHashKitCodable"
-        ),
-        .testTarget(name: "BlurHashTest",
-                    dependencies: [
-                        "BlurHashKit",
-                        "BlurHashKitCodable",
-                    ],
-                    path: "./Swift/BlurHashTest"
-        ),
+        )
     ]
 )
